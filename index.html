@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>1</h3>
+    <form>
+        <select id="drinks" onchange="showChoice()">
+            <option value="coffee">Cofee</option>
+            <option value="tea">Tea</option>
+            <option value="juice">Juice</option>
+        </select>
+    </form>
+    <h3>2</h3>
+    <input type="text" placeholder="Write a day" id="day">
+    <button onclick="checkDay()">Click</button>
+    <h3>3</h3>
+    <input type="number" placeholder="Write month number" id="monthNum">
+    <button onclick="checkMonth()">Click</button>
+    <h3>4</h3>
+    <input type="number" placeholder="Write month number" id="monthDays">
+    <button onclick="checkMonthNum()">Click</button>
+    <h3>5</h3>
+    <input type="text" placeholder="Write color" id="color">
+    <button onclick="checkColor()">Click</button>
+    <h3>6</h3>
+    <form>
+        <input type="number" placeholder="Write number" id="numOne">
+        <select id="symbols" onchange="showSymbols()">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" placeholder="Write number" id="numTwo">
+        <button onclick="calculator()">=</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
